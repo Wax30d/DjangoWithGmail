@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-z7v6s=*+ipf00rd9=+t&datt*oamm+_j$9pi8*(-3sc#4l2m0l
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://djangowithgmail.onrender.com/']
 
 # Application definition
 
